@@ -49,14 +49,34 @@ MoodBite is an **educational tool** (not a clinical application) that enables us
 ## 📁 Project Structure
 moodbite/
 ├── app/
-│ ├── api/ # FastAPI routes
-│ ├── models/ # SQLModel definitions
-│ ├── services/ # Business logic
-│ ├── ai/ # ML models & analysis
-│ └── utils/ # Helpers & config
-├── frontend/ # UI application
-├── tests/ # Test suites
-└── docs/ # Documentation
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── database.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── users.py
+│   │   ├── moods.py
+│   │   ├── journals.py
+│   │   ├── food.py
+│   │   └── insights.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── ai_analysis.py
+│   │   └── correlations.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── security.py
+├── frontend/
+│   ├── main.py
+│   └── components/
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
 
 text
 
