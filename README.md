@@ -127,7 +127,8 @@ Crisis resources integration
 
 Beta testing & deployment
 
-🤝 Contributing
+# Contributing
+
 We welcome contributions! Please see our Contributing Guidelines for details.
 
 Development Setup
@@ -141,28 +142,18 @@ Push to branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-📝 License
+# 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-⚠️ Important Disclaimers
+# ⚠️ Important Disclaimers
 Not Medical Advice: MoodBite is an educational tool, not a clinical application
 
 Data Privacy: User data is encrypted and never sold to third parties
 
-Crisis Support: App includes links to mental health resources for emergency situations
 
-🆘 Support & Resources
-Crisis Text Line: Text HOME to 741741
+# 📬 Contact
+Project Lead: Marykaren Njeri Karumi
 
-National Suicide Prevention Lifeline: 1-800-273-8255
+Email: karumimarykaren@gmail.com
 
-Mental Health Resources: NAMI.org
-
-📬 Contact
-Project Lead: [Your Name]
-
-Email: [your.email@domain.com]
-
-Project Link: https://github.com/yourusername/moodbite
-
-Building better mental health through mindful eating 🍎💭
+# Building better mental health through mindful eating 🍎💭
