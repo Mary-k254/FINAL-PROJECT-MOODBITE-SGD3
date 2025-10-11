@@ -1,4 +1,4 @@
-# FINAL-PROJECT-MOODBITE-SGD3
+# FINAL-PROJECT-MOODBITE-SDG 3
 # MoodBite 🧠
 
 *A Python-powered app that helps you understand how your diet affects your mood through daily tracking and AI-powered insights.*
