@@ -98,7 +98,9 @@ moods(id, user_id, date, mood_score, tags, notes)
 journals(id, user_id, date, text, sentiment_score)
 food_logs(id, user_id, date, food_name, category, amount)
 insights(id, user_id, period, insight_text, confidence, is_active)
-🗓 Development Roadmap
+
+
+# 🗓 Development Roadmap
 Week 1-2: Foundation
 FastAPI setup & authentication
 
