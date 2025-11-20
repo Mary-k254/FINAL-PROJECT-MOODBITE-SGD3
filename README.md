@@ -118,36 +118,6 @@ journals(id, user_id, date, text, sentiment_score)
 food_logs(id, user_id, date, food_name, category, amount)
 insights(id, user_id, period, insight_text, confidence, is_active)
 
-
-# 🗓 Development Roadmap
-Week 1-2: Foundation
-FastAPI setup & authentication
-
-Database schema & migrations
-
-Mood tracking API endpoints
-
-Week 3-4: Core Features
-Journaling with sentiment analysis
-
-Food logging system
-
-Basic food-mood correlation engine
-
-Week 5-6: User Experience
-Simple frontend interface
-
-Educational content system
-
-Insight generation & delivery
-
-Week 7-8: Polish & Launch
-Privacy features & data export
-
-Crisis resources integration
-
-Beta testing & deployment
-
 # Contributing
 
 We welcome contributions! Please see our Contributing Guidelines for details.
