@@ -19,8 +19,7 @@ MoodBite is an **educational tool** (not a clinical application) that enables us
 |---------|-------------|--------|
 | **Daily Mood Tracking** | Simple slider (0-10) + emotion tags | 🟢 Planned |
 | **Food Logging** | Quick picker from local food database | 🟢 Planned |
-| **Journaling** | Optional daily entries with AI sentiment analysis | 🟡 In Progress |
-| **Weekly Insights** | AI-generated food-mood correlations | 🟡 In Progress |
+| **Journaling** | Optional daily entries with AI sentiment analysis
 | **Educational Content** | Nutrition facts and mood-supportive recipes | 🟢 Planned |
 | **Privacy First** | Data export + crisis resources | 🟢 Planned |
 
