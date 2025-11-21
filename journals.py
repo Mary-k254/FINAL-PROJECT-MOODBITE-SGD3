@@ -2,10 +2,10 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import Session, select
 from typing import List, Optional
 from datetime import date, datetime
-from app.models.database import JournalEntry, get_session
-from app.services.auth import get_current_user
-from app.services.correlations import text_analyzer
-from app.models.database import User
+from database import JournalEntry, get_session
+from auth import get_current_user
+from correlations import text_analyzer
+from database import User
 from pydantic import BaseModel
 
 router = APIRouter()

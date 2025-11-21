@@ -1,8 +1,8 @@
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlmodel import Session, select
-from app.models.database import User, get_session
-from app.utils.security import verify_token, verify_password, get_password_hash
+from database import User, get_session
+from security import verify_token, verify_password, get_password_hash
 
 security = HTTPBearer()
 

@@ -6,7 +6,7 @@ from scipy import stats
 from typing import List, Dict
 from datetime import datetime, timedelta
 from sqlmodel import Session, select
-from app.models.database import MoodEntry, FoodLog
+from database import MoodEntry, FoodLog
 
 class MoodFoodAnalyzer:
     def __init__(self):

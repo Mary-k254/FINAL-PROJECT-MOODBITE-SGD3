@@ -2,10 +2,10 @@ from fastapi import APIRouter, Depends
 from sqlmodel import Session, select
 from typing import List, Optional
 from datetime import date
-from app.models.database import FoodLog, FoodCategory, FoodDatabase, get_session
-from app.services.auth import get_current_user
-from app.models.database import User
-from app.utils.config import settings
+from database import FoodLog, FoodCategory, FoodDatabase, get_session
+from auth import get_current_user
+from database import User
+from config import settings
 from pydantic import BaseModel
 
 router = APIRouter()

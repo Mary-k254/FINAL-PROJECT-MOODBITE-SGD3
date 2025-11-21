@@ -2,10 +2,10 @@ from fastapi import APIRouter, Depends, BackgroundTasks
 from sqlmodel import Session, select
 from typing import List
 from datetime import datetime, timedelta
-from app.models.database import Insight, get_session
-from app.services.auth import get_current_user
-from app.services.ai_analysis import analyzer
-from app.models.database import User
+from .database import Insight, get_session
+from .auth import get_current_user
+from ai_analysis import analyzer
+from database import User
 from pydantic import BaseModel
 
 router = APIRouter()

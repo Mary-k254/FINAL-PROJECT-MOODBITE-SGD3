@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlmodel import Session, select
 from datetime import timedelta
-from app.models.database import User, get_session
-from app.services.auth import authenticate_user, get_current_user
-from app.utils.security import create_access_token, get_password_hash
-from app.utils.config import settings
+from database import User, get_session
+from auth import authenticate_user, get_current_user
+from security import create_access_token, get_password_hash
+from config import settings
 from pydantic import BaseModel
 from typing import Optional
 
