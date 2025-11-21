@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← ADD THIS
 import flet as ft
 import httpx
 
@@ -74,4 +75,22 @@ def create_login_page(page, auth_manager):
     return ft.View(
         "/login",
         [
-            ft.AppBar(title=ft.Text("MoodBite - Login"), bgcolor="blue
+            ft.AppBar(title=ft.Text("MoodBite - Login"), bgcolor="blue"),
+            ft.Container(
+                content=ft.Column(
+                    [
+                        ft.Text("Login to MoodBite", size=24, weight="bold"),
+                        email_field,
+                        password_field,
+                        ft.ElevatedButton("Login", on_click=handle_login),
+                        ft.TextButton("Don't have an account? Register here", on_click=go_to_register),
+                        result_text
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                    horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                ),
+                alignment=ft.alignment.center,
+                expand=True
+            )
+        ]
+    )

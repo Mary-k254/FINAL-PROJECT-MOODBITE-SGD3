@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← ADD THIS
 from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import Session, select
 from typing import List, Optional

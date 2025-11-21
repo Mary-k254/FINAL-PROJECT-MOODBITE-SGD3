@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← Add this line at the VERY TOP
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlmodel import Session, select

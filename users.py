@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← ADD THIS
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlmodel import Session, select
 from datetime import timedelta

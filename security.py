@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← ADD THIS
 from datetime import datetime, timedelta
 from typing import Optional
 from jose import JWTError, jwt

@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← ADD THIS
 # SIMPLE sentiment analysis without transformers
 import re
 from typing import Optional

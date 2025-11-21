@@ -1,9 +1,10 @@
+from __future__ import annotations  # ← ADD THIS
 from fastapi import APIRouter, Depends, BackgroundTasks
 from sqlmodel import Session, select
 from typing import List
-from datetime import datetime, timedelta
-from .database import Insight, get_session
-from .auth import get_current_user
+from datetime import datetime, timedelta, date  # ← ADD 'date' HERE
+from database import Insight, get_session
+from auth import get_current_user
 from ai_analysis import analyzer
 from database import User
 from pydantic import BaseModel

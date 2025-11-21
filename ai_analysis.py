@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← Add this line at the VERY TOP
 # Keep your existing correlation analysis
 # Just remove any torch/transformers imports
 import pandas as pd

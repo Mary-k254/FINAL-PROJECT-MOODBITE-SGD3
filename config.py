@@ -1,3 +1,4 @@
+from __future__ import annotations  # ← ADD THIS
 import os
 from dotenv import load_dotenv
 

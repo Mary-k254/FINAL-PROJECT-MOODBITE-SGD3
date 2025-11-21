@@ -20,11 +20,13 @@ uvicorn==0.24.0
 sqlmodel==0.0.14  # Updated
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-pydantic==2.5.0   # Updated to v2
+# pydantic==2.5.0   # Updated to v2
+pydantic==1.10.13
 pandas==2.2.3
-numpy==1.25.2
+numpy>=1.26
 scipy==1.11.4
 python-dotenv==1.0.0
 psycopg2-binary==2.9.9
 sqlalchemy==2.0.23  # Add this
 alembic==1.12.1     # Add this
+flet==0.28.3
